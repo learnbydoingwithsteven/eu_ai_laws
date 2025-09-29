@@ -1,0 +1,14 @@
+{
+  "name": "eu_ai_laws",
+  "version": "1.0.0",
+  "description": "EU and Italian AI law explorer with chat and graph visualisations",
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "NODE_ENV=development node server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
