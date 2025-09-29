@@ -1,0 +1,97 @@
+{
+  "lawId": "italian_ai_guidelines",
+  "title": "Garante Privacy Guidelines on AI and Data Protection",
+  "citation": "Italian Data Protection Authority, 2024",
+  "articles": [
+    {
+      "id": "italy-garante-sec-1",
+      "label": "Section 1",
+      "title": "Lawfulness and purpose limitation",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Processing within AI systems must rely on a GDPR-compliant legal basis and be recorded in governance registers.",
+          "points": []
+        },
+        {
+          "number": "2",
+          "text": "Purposes for training, validation and deployment must remain compatible with the original collection context.",
+          "points": []
+        }
+      ],
+      "references": ["gdpr-art-5", "gdpr-art-6"]
+    },
+    {
+      "id": "italy-garante-sec-2",
+      "label": "Section 2",
+      "title": "Transparency and information duties",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Requires layered notices describing automated logic, significance and consequences for data subjects.",
+          "points": []
+        },
+        {
+          "number": "2",
+          "text": "Mandates informing individuals about conversational agents and biometric or emotion recognition tools.",
+          "points": []
+        }
+      ],
+      "references": ["ai-act-art-52", "gdpr-art-12"]
+    },
+    {
+      "id": "italy-garante-sec-3",
+      "label": "Section 3",
+      "title": "Accountability and documentation",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Organisations must maintain registers covering AI use cases, data flows, DPIA outcomes and mitigation measures.",
+          "points": []
+        },
+        {
+          "number": "2",
+          "text": "Safeguards must be proportionate to the scale and sensitivity of processing.",
+          "points": []
+        }
+      ],
+      "references": ["ai-act-art-19", "gdpr-art-24", "gdpr-art-35"]
+    },
+    {
+      "id": "italy-garante-sec-4",
+      "label": "Section 4",
+      "title": "Human oversight and safeguards",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Requires trained human reviewers capable of intervening and overriding AI outputs.",
+          "points": []
+        },
+        {
+          "number": "2",
+          "text": "Mandates periodic audits, scenario testing and escalation to the data protection officer.",
+          "points": []
+        }
+      ],
+      "references": ["gdpr-art-22", "ai-act-art-14"]
+    },
+    {
+      "id": "italy-garante-sec-5",
+      "label": "Section 5",
+      "title": "Coordination with national authorities",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "High-risk AI deployments must be notified to the Garante together with DPIAs and mitigation plans.",
+          "points": []
+        },
+        {
+          "number": "2",
+          "text": "Controllers must cooperate with authorities, sharing incident information and remedial actions.",
+          "points": []
+        }
+      ],
+      "references": ["ai-act-art-71", "gdpr-art-33"]
+    }
+  ]
+}

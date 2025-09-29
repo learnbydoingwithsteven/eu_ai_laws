@@ -1,0 +1,120 @@
+{
+  "lawId": "eu_ai_act",
+  "title": "EU Artificial Intelligence Act",
+  "citation": "Regulation of the European Parliament and of the Council laying down harmonised rules on Artificial Intelligence",
+  "articles": [
+    {
+      "id": "ai-act-art-5",
+      "label": "Article 5",
+      "title": "Prohibited AI practices",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Prohibits manipulative, exploitative, social scoring and certain real-time biometric identification systems.",
+          "points": [
+            "Subliminal manipulation causing harm",
+            "Exploitation of vulnerable groups",
+            "General-purpose social scoring",
+            "Real-time biometric identification for law enforcement with narrow exceptions"
+          ]
+        }
+      ],
+      "references": ["ai-act-art-52", "gdpr-art-22"]
+    },
+    {
+      "id": "ai-act-art-9",
+      "label": "Article 9",
+      "title": "Risk management system",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "High-risk systems require a continuous, iterative risk management system covering identification, analysis, evaluation and mitigation of risks.",
+          "points": []
+        }
+      ],
+      "references": ["ai-act-art-10", "ai-act-art-14", "gdpr-art-35"]
+    },
+    {
+      "id": "ai-act-art-10",
+      "label": "Article 10",
+      "title": "Data and data governance",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Training, validation and testing data must be subject to robust data governance and management practices.",
+          "points": [
+            "Data relevance and representativeness",
+            "Data accuracy and completeness",
+            "Bias monitoring and mitigation"
+          ]
+        }
+      ],
+      "references": ["gdpr-art-5", "gdpr-art-9"]
+    },
+    {
+      "id": "ai-act-art-14",
+      "label": "Article 14",
+      "title": "Human oversight",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "High-risk AI systems must include effective human oversight.",
+          "points": [
+            "Operators must understand system capabilities and limitations",
+            "Enable intervention to override or disable the system",
+            "Enable monitoring of operations"
+          ]
+        }
+      ],
+      "references": ["gdpr-art-22", "italy-garante-sec-4"]
+    },
+    {
+      "id": "ai-act-art-19",
+      "label": "Article 19",
+      "title": "Technical documentation",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Providers must prepare technical documentation before placing systems on the market or into service.",
+          "points": [
+            "Describe system architecture",
+            "Explain intended purpose",
+            "Document compliance with requirements"
+          ]
+        }
+      ],
+      "references": ["ai-act-art-9", "italy-garante-sec-3"]
+    },
+    {
+      "id": "ai-act-art-52",
+      "label": "Article 52",
+      "title": "Transparency obligations for certain AI systems",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Users must inform individuals that they are interacting with an AI system, unless obvious.",
+          "points": []
+        },
+        {
+          "number": "2",
+          "text": "Users must notify individuals when emotion recognition or biometric categorisation systems are used.",
+          "points": []
+        }
+      ],
+      "references": ["gdpr-art-12", "italy-garante-sec-2"]
+    },
+    {
+      "id": "ai-act-art-71",
+      "label": "Article 71",
+      "title": "Cooperation between national authorities",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Member States shall ensure cooperation between competent authorities, including information exchange and mutual assistance.",
+          "points": []
+        }
+      ],
+      "references": ["italy-garante-sec-5"]
+    }
+  ]
+}

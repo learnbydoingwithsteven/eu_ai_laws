@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EU &amp; Italian AI Law Navigator</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js" defer></script>
+    <script type="module" src="./app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>EU &amp; Italian AI Law Navigator</h1>
+      <p>
+        Explore GDPR, the EU AI Act and Italian Garante AI guidance. Visualise how provisions
+        connect, read the text of each article and chat with the documents through a local Ollama model.
+      </p>
+    </header>
+
+    <main>
+      <section class="controls">
+        <div class="control-group">
+          <h2>Filters</h2>
+          <div id="law-filters" class="filters"></div>
+        </div>
+        <div class="control-group">
+          <h2>Search provisions</h2>
+          <form id="search-form">
+            <input type="text" id="search-input" placeholder="Search across all laws" />
+            <button type="submit">Search</button>
+          </form>
+          <div id="search-results"></div>
+        </div>
+      </section>
+
+      <section class="graph-panel">
+        <h2>Relationship graph</h2>
+        <svg id="law-graph" role="img" aria-label="Graph of legal provisions"></svg>
+        <p class="hint">Drag nodes to reorganise the graph. Click a node to view article details.</p>
+      </section>
+
+      <section class="details-panel">
+        <div class="article-text">
+          <h2 id="article-title">Select a node to read an article</h2>
+          <pre id="article-content" aria-live="polite"></pre>
+        </div>
+        <div class="law-text">
+          <h2>Full text preview</h2>
+          <select id="law-text-select" aria-label="Choose a law to read">
+            <option value="">Choose a law…</option>
+          </select>
+          <pre id="law-text"></pre>
+        </div>
+      </section>
+
+      <section class="chat-panel">
+        <h2>Chat with the laws</h2>
+        <div class="chat-settings">
+          <label>
+            Ollama model
+            <input type="text" id="ollama-model" value="llama3" />
+          </label>
+        </div>
+        <div id="chat-log" class="chat-log" aria-live="polite"></div>
+        <form id="chat-form">
+          <textarea id="chat-input" rows="3" placeholder="Ask about compliance obligations, cross-references, DPIA duties…"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Data sourced from consolidated GDPR articles, the adopted EU AI Act and the Italian Garante Privacy guidelines on AI and data protection (2024).
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,176 @@
+{
+  "lawId": "gdpr",
+  "title": "General Data Protection Regulation",
+  "citation": "Regulation (EU) 2016/679",
+  "articles": [
+    {
+      "id": "gdpr-art-5",
+      "label": "Article 5",
+      "title": "Principles relating to processing of personal data",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Personal data shall be processed lawfully, fairly and transparently; collected for specified and legitimate purposes; adequate, relevant and limited to what is necessary; accurate and up to date; kept no longer than necessary; and processed securely.",
+          "points": [
+            "Lawfulness, fairness and transparency",
+            "Purpose limitation",
+            "Data minimisation",
+            "Accuracy",
+            "Storage limitation",
+            "Integrity and confidentiality"
+          ]
+        },
+        {
+          "number": "2",
+          "text": "The controller is responsible for, and must be able to demonstrate, compliance with the principles in paragraph 1.",
+          "points": [
+            "Accountability"
+          ]
+        }
+      ],
+      "references": ["gdpr-art-24", "gdpr-art-25"]
+    },
+    {
+      "id": "gdpr-art-6",
+      "label": "Article 6",
+      "title": "Lawfulness of processing",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Processing is lawful only if at least one legal basis applies.",
+          "points": [
+            "Consent",
+            "Contract",
+            "Legal obligation",
+            "Vital interests",
+            "Public interest or official authority",
+            "Legitimate interests balanced against data subject rights"
+          ]
+        }
+      ],
+      "references": ["gdpr-art-5", "gdpr-art-9"]
+    },
+    {
+      "id": "gdpr-art-9",
+      "label": "Article 9",
+      "title": "Processing of special categories of personal data",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Processing of special categories of personal data is prohibited.",
+          "points": []
+        },
+        {
+          "number": "2",
+          "text": "Exceptions include explicit consent, employment and social protection law, vital interests, legitimate activities by foundations or associations, data made public by the data subject, legal claims, substantial public interest, healthcare, public health, and research with safeguards.",
+          "points": []
+        }
+      ],
+      "references": ["gdpr-art-6", "gdpr-art-35"]
+    },
+    {
+      "id": "gdpr-art-12",
+      "label": "Article 12",
+      "title": "Transparent information, communication and modalities for the exercise of the rights of the data subject",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Controllers must take appropriate measures to provide data subjects with concise, transparent, intelligible and easily accessible information.",
+          "points": []
+        },
+        {
+          "number": "2",
+          "text": "Information shall be provided in writing, or by other means, including electronic means, and where requested orally provided that the identity of the data subject is proven.",
+          "points": []
+        }
+      ],
+      "references": ["gdpr-art-13", "gdpr-art-14", "italy-garante-sec-2"]
+    },
+    {
+      "id": "gdpr-art-22",
+      "label": "Article 22",
+      "title": "Automated individual decision-making, including profiling",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Data subjects have the right not to be subject to a decision based solely on automated processing, including profiling, that produces legal or similarly significant effects.",
+          "points": []
+        },
+        {
+          "number": "2",
+          "text": "Exceptions apply for contracts, authorised legal requirements or explicit consent, provided safeguards exist.",
+          "points": [
+            "Safeguards must include the right to human intervention, to express a point of view, and to contest the decision"
+          ]
+        }
+      ],
+      "references": ["gdpr-art-35", "ai-act-art-5"]
+    },
+    {
+      "id": "gdpr-art-24",
+      "label": "Article 24",
+      "title": "Responsibility of the controller",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Controllers must implement appropriate measures, taking into account the context and risks, to ensure and demonstrate compliance.",
+          "points": []
+        }
+      ],
+      "references": ["gdpr-art-5", "gdpr-art-25", "gdpr-art-35"]
+    },
+    {
+      "id": "gdpr-art-25",
+      "label": "Article 25",
+      "title": "Data protection by design and by default",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Controllers must implement technical and organisational measures designed to implement data protection principles.",
+          "points": []
+        },
+        {
+          "number": "2",
+          "text": "By default, only personal data necessary for each specific purpose may be processed.",
+          "points": []
+        }
+      ],
+      "references": ["gdpr-art-5", "gdpr-art-24"]
+    },
+    {
+      "id": "gdpr-art-35",
+      "label": "Article 35",
+      "title": "Data protection impact assessment",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Controllers must carry out an impact assessment where processing is likely to result in high risk to individuals.",
+          "points": [
+            "Describe processing operations and purposes",
+            "Assess necessity and proportionality",
+            "Manage risks to rights and freedoms",
+            "Define safeguards and security measures"
+          ]
+        }
+      ],
+      "references": ["gdpr-art-9", "gdpr-art-22", "gdpr-art-24", "gdpr-art-25"]
+    },
+    {
+      "id": "gdpr-art-37",
+      "label": "Article 37",
+      "title": "Designation of the data protection officer",
+      "paragraphs": [
+        {
+          "number": "1",
+          "text": "Controllers and processors must designate a data protection officer in specified high-risk scenarios.",
+          "points": [
+            "Public authority processing",
+            "Large-scale systematic monitoring",
+            "Large-scale processing of special categories of data"
+          ]
+        }
+      ],
+      "references": ["gdpr-art-35"]
+    }
+  ]
+}
